@@ -1,0 +1,7 @@
+CREATE DATABASE ice_cream_app;
+
+CREATE TABLE Lists(
+    id INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(200) NOT NULL,
+    description TEXT NOT NULL
+);
